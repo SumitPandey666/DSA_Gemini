@@ -4,6 +4,9 @@ public class TrappingRainWater {
     public static void main(String args[]){
         int[] nums = {3,6,2,8,11,2};
         System.out.println(findTrappedRainWater(nums));
+
+        String s = "abcdef";
+        System.out.println(s.substring(0, 3));
     }
 
     public static int findTrappedRainWater(int[] height) {
